@@ -25,7 +25,7 @@ def get_filters():
         else:
             break
 
-    # get user input for month (all, january, february, ... , june)
+    # user should input the month (all, january, february, ... , june)
     while True:
         month = input(
             "\nWhich month would you like to choose from? January, February, March, April, May, June or type 'all' for all months?\n").title()
