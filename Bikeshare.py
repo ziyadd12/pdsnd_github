@@ -35,7 +35,7 @@ def get_filters():
         else:
             break
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # user should input the day (all, monday, tuesday, ... sunday)
     while True:
         day = input(
             "\nwhich day are you looking into? kindly enter the day as follows: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' for all days.\n").title()
